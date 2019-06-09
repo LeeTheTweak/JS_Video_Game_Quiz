@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Game Quiz</title>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+        <script src="https://kit.fontawesome.com/9c3656a23f.js"></script>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="main-app-wrapper">
+        <!-- LIGHT BULB APP AREA -->
+        <header>
+            <div id="dark-mode-area">
+                <p>Dark Mode</p>
+                <i class="fas fa-lightbulb"></i>
+            </div>
+        </header>
+        <!-- END OF LIGHT BULB APP AREA -->
+
+        <!-- THE QUIZ APPLICATION -->
+        <section id="quiz-area">
+                <div id="quiz">
+                    <header>
+                        <div id="welcome-area">
+                            <h1>Welcome to the Video Game Quiz!</h1>
+                        </div>
+                    </header>
+                <div id="questions"></div>
+                <div id="answers-area">
+                    <div id="answer-input">
+                        <input type="text" name="answer" placeholder="enter answer..." required/>
+                        <button>Submit</button>
+                    </div>
+                </div>
+                <div id="results-area">
+                    <div id="results"></div>
+                    <div id="metals"></div>
+                    <div id="check"></div>
+                </div>
+                <div id="next-button-area">
+                    <div id="next-button"><button>Next</button></div>
+                </div>
+            </div>
+        </section>
+        <!-- END OF THE QUIZ APPLICATION -->
+        </div>
+        
+        <footer>
+
+        </footer>
+
+        <script src="lightBulb.js"></script>
+        <script src="quiz.js"></script>
+    </body>
+</html>

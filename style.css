@@ -1,0 +1,111 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+#main-app-wrapper {
+  margin-top: 10%;
+}
+
+header {
+  width: auto;
+}
+
+#dark-mode-area {
+  width: 150px;
+  height: 80px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#dark-mode-area p {
+  width: 100%;
+  margin-top: 10px;
+  opacity: 0;
+  position: absolute;
+}
+#dark-mode-area i {
+  width: 100%;
+  font-size: 30px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+}
+#dark-mode-area i:hover {
+  cursor: pointer;
+}
+
+#welcome-area {
+  text-align: center;
+}
+#welcome-area h1 {
+  color: #4f4f86;
+  font-family: sans-serif;
+}
+
+#quiz-area {
+  text-align: center;
+}
+#quiz-area #quiz {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  border: 8px solid #68869e;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+}
+#quiz-area #quiz #questions {
+  margin-bottom: 20px;
+  color: #596288;
+  font-family: sans-serif;
+}
+#quiz-area #quiz #answers-area #answer-input button {
+  background-color: #4eabe9;
+  border: 3px solid lightblue;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s ease-in;
+}
+#quiz-area #quiz #answers-area #answer-input button:hover {
+  cursor: pointer;
+  background-color: #3f87b8;
+}
+#quiz-area #quiz #results-area {
+  color: #596288;
+}
+#quiz-area #quiz #results-area #metals #gold {
+  color: goldenrod;
+}
+#quiz-area #quiz #results-area #metals #silver {
+  color: silver;
+}
+#quiz-area #quiz #results-area #metals #bronze {
+  color: brown;
+}
+#quiz-area #quiz #results-area #metals #platinum {
+  color: #c9c9c9;
+}
+#quiz-area #quiz #results-area #check {
+  color: blue;
+}
+#quiz-area #quiz #next-button-area #next-button button {
+  background-color: #4eabe9;
+  border: 3px solid lightblue;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s ease-in;
+}
+#quiz-area #quiz #next-button-area #next-button button:hover {
+  cursor: pointer;
+  background-color: #3f87b8;
+}
+
+/*# sourceMappingURL=style.css.map */

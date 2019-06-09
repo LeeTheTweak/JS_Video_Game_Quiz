@@ -1,0 +1,130 @@
+$quiz_border: #68869e;
+$quiz_BG: white;
+$questions_text: #596288;
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+#main-app-wrapper {
+    margin-top: 10%;
+}
+
+header {
+    width: auto;
+}
+#dark-mode-area {
+    width: 150px;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p {
+        width: 100%;
+        margin-top: 10px;
+        opacity: 0.0;
+        position: absolute;
+    }
+    i {
+        width: 100%;
+        font-size: 30px;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+#welcome-area {
+    text-align: center;
+    h1 {
+        color: #4f4f86;
+        font-family: sans-serif;
+    }
+}
+
+#quiz-area {
+    text-align: center;
+    
+    #quiz {
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+        border: 8px solid $quiz_border;
+        border-radius: 20px;
+        background-color: $quiz_BG;
+        padding: 10px;
+
+        #questions {
+            margin-bottom: 20px;
+            color: $questions_text;
+            font-family: sans-serif;
+        }
+        #answers-area {
+            #answer-input {
+                    input {
+
+                    }
+                button {
+                    background-color: #4eabe9;
+                    border: 3px solid lightblue;
+                    border-radius: 5px;
+                    color: white;
+                    font-weight: bold;
+                    transition: .2s ease-in;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #3f87b8;
+                    }
+                }
+            }
+        }
+
+        #results-area {
+            color: $questions_text;
+            #results {
+
+            }
+            #metals {
+                    #gold {
+                        color: goldenrod;
+                    }
+                    #silver {
+                        color: silver;
+                    }
+                    #bronze {
+                        color: brown;
+                    }
+                    #platinum {
+                        color:  #c9c9c9;
+                    }
+            }
+            #check {
+                color: blue;
+            }
+        }
+        #next-button-area {
+            #next-button {
+                button {
+                    background-color: #4eabe9;
+                    border: 3px solid lightblue;
+                    border-radius: 5px;
+                    color: white;
+                    font-weight: bold;
+                    transition: .2s ease-in;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #3f87b8;
+                    }
+                }
+            }
+        }
+    }
+}
